@@ -1,0 +1,28 @@
+.main{
+    text-align: center;
+}
+.surveybox{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fafafa;
+    padding: 20px 15px;
+    width: 25%;
+    height: 160px;
+}
+.surveybox h4{
+    padding: 0px 20px;
+}
+.start{
+    height: 35px;
+    width: 25%;
+    margin-left: -10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+.start a {
+    color: #fff;
+    text-decoration: none;
+}

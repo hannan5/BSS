@@ -1,0 +1,97 @@
+*{
+    outline: none;
+}
+.navbar{
+    background: rgba(0,0,0,0.2);
+}
+.navbar a {
+    color: #000;
+}
+#logout{
+    width: 70px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 28px;
+}
+.surveyform{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.maindiv{
+    width: 70%;
+    background-color: #fafafa;
+    margin-top: 20px;
+    border: 1px solid #e0d3d3;
+}
+.maindiv h6{
+    padding: 15px 0px 0px 18px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.question{
+    width: 100%;
+    display: flex;
+}
+.question_input, #nameinput{
+    width: 70%;
+    padding: 1px 15px;
+}
+.question_input input{
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+}
+.maindiv button{
+    width: 60px;
+    margin-top: 10px;border: none;
+    background-color: #2596be;
+    color: #000;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.response_type{
+    width: 30%;
+}
+.response_type select{
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+}
+.addquestion{
+    width: 27%;
+    background-color: #fafafa;
+    margin-top: 20px;
+    height: 100%;
+    text-align: center;
+}
+.addquestion button{
+    margin-top: 50px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #2596be;
+    color: #fff;
+    margin-bottom: 50px;
+    /* width: 100%; */
+    border: none;
+}
+#surveyname{
+    margin-top: 20px;
+    text-align: left;
+}
+.logoutBtn {
+    margin-right: 10px !important;
+}
+.savebtn{
+    display: none;
+}
+.savebtnhide{
+    display: block;
+    border-radius: 5px;
+}
+.surveynamehide{
+    display: none
+}
