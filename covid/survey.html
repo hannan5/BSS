@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Firebase  -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <!-- Css File  -->
+    <link rel="stylesheet" a href="./survey.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="survey">
+            <h2 id="surveyname">Surbey NAme</h2>
+            <hr />
+            <div class="surveycontent" id="surveycontent">
+                <div id="namediv" class="show">
+                    <label>Name: </label>
+                    <input type="text" id="username" required />
+                    <label>Email: </label>
+                    <input type="email" id="useremail" required />
+                    <label>Company </label>
+                    <input type="text" id="usercompany" required />
+                </div>
+                <div id="questions">
+                </div>
+
+                <button id="next"> Start </button>
+            </div>
+        </div>
+    </div>
+    <script src="./survey.js"></script>
+</body>
+
+</html>
